@@ -148,16 +148,11 @@ header {
 }
 
 /* Articles section */
-.main__productos-home {
+.main__products-home {
   width: 80%;
-  height: 10rem;
 }
 
-.main__productos-home {
-  height: 40rem;
-}
-
-.main__productos-home h2 {
+.main__products-home h2 {
   padding: 20px;
 }
 

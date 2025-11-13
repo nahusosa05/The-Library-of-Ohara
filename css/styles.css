@@ -1,0 +1,192 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* Icon base */
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icon-header {
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+/* Layout container */
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-up,
+.header-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 auto;
+}
+
+.header-up h1 {
+  font-size: 30px;
+  padding: 12px;
+}
+
+.header-up a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.header-down .nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+}
+
+/* Search form */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border-radius: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 4px;
+}
+
+.search-form input {
+  padding: 8px 12px;
+  min-width: 50rem;
+  min-height: 2rem;
+  border: 1px solid #e9ecef;
+  border-radius: 9px;
+  flex: 1 1 320px;
+}
+
+.search-button {
+  background: none;
+  padding: 8px 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: inherit;
+  padding: 6px 8px;
+}
+
+.nav-bar a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.nav-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hero section */
+.main-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  min-height: 40rem;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/img/hero-wallpaper.jpg");
+}
+
+#main-home_tittle {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+#main-home_slogan {
+  font-size: 1.25rem;
+}
+
+/* Articles section */
+.main__productos-home {
+  width: 80%;
+  height: 10rem;
+}
+
+.main__productos-home {
+  height: 40rem;
+}
+
+.main__productos-home h2 {
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+}
+
+footer p {
+  font-size: 1.15rem;
+}
+
+.nav-social-media ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.nav-social-media li {
+  list-style: none;
+}
+
+.nav-social-media a {
+  text-decoration: none;
+  color: inherit;
+}

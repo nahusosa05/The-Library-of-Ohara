@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library of Ohara</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-up">
+        <a href="./index.html"><h1>Library of Ohara</h1></a>
+
+        <nav class="nav-search">
+          <form class="search-form">
+            <input
+              type="text"
+              placeholder="Buscar aquí el título, autor o ISBN"
+            />
+            <button type="submit" class="search-button" aria-label="Buscar">
+              <svg
+                class="icon-header search"
+                fill="currentColor"
+                viewBox="0 0 256 256"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                ></path>
+              </svg>
+            </button>
+          </form>
+        </nav>
+        <nav class="nav-icons">
+          <a href="#shopping">
+            <svg
+              class="icon-header shopping"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              version="1.1"
+              width="256"
+              height="256"
+              viewBox="0 0 256 256"
+              xml:space="preserve"
+            >
+              <g
+                style="
+                  stroke: none;
+                  stroke-width: 0;
+                  stroke-dasharray: none;
+                  stroke-linecap: butt;
+                  stroke-linejoin: miter;
+                  stroke-miterlimit: 10;
+                  fill: none;
+                  fill-rule: nonzero;
+                  opacity: 1;
+                "
+                transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+              >
+                <path
+                  d="M 74.396 66.93 h -47.12 c -3.491 0 -5.549 -2.665 -5.777 -5.299 c -0.178 -2.057 0.741 -4.326 2.792 -5.506 L 16.745 22.34 c -0.132 -0.592 0.012 -1.213 0.392 -1.687 c 0.379 -0.474 0.954 -0.75 1.561 -0.75 H 88 c 0.647 0 1.256 0.314 1.631 0.842 c 0.375 0.528 0.471 1.206 0.258 1.817 l -7.983 22.876 c -0.991 2.838 -3.446 4.921 -6.406 5.438 l -48.522 8.48 c -0.006 0.001 -0.012 0.002 -0.019 0.003 c -1.499 0.267 -1.507 1.541 -1.473 1.926 c 0.033 0.386 0.261 1.644 1.792 1.644 h 47.12 c 1.104 0 2 0.896 2 2 S 75.501 66.93 74.396 66.93 z M 21.193 23.904 l 6.966 31.186 l 46.652 -8.152 c 1.533 -0.268 2.805 -1.347 3.318 -2.817 l 7.055 -20.216 H 21.193 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(0, 0, 0);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M 27.846 83.111 c -3.615 0 -6.555 -2.94 -6.555 -6.555 c 0 -3.615 2.94 -6.556 6.555 -6.556 s 6.556 2.94 6.556 6.556 C 34.401 80.171 31.46 83.111 27.846 83.111 z M 27.846 74.001 c -1.409 0 -2.555 1.146 -2.555 2.556 c 0 1.408 1.146 2.555 2.555 2.555 c 1.409 0 2.556 -1.146 2.556 -2.555 C 30.401 75.147 29.255 74.001 27.846 74.001 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(0, 0, 0);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M 68.845 83.111 c -3.615 0 -6.556 -2.94 -6.556 -6.555 c 0 -3.615 2.94 -6.556 6.556 -6.556 s 6.556 2.94 6.556 6.556 C 75.4 80.171 72.46 83.111 68.845 83.111 z M 68.845 74.001 c -1.409 0 -2.556 1.146 -2.556 2.556 c 0 1.408 1.146 2.555 2.556 2.555 s 2.556 -1.146 2.556 -2.555 C 71.4 75.147 70.254 74.001 68.845 74.001 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(0, 0, 0);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M 18.695 23.904 c -0.916 0 -1.742 -0.633 -1.95 -1.564 l -1.407 -6.301 c -0.677 -3.033 -3.321 -5.151 -6.428 -5.151 H 2 c -1.104 0 -2 -0.896 -2 -2 s 0.896 -2 2 -2 h 6.909 c 4.995 0 9.244 3.404 10.333 8.279 l 1.407 6.301 c 0.241 1.078 -0.438 2.147 -1.516 2.388 C 18.986 23.889 18.839 23.904 18.695 23.904 z"
+                  style="
+                    stroke: none;
+                    stroke-width: 1;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: rgb(0, 0, 0);
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform=" matrix(1 0 0 1 0 0) "
+                  stroke-linecap="round"
+                />
+              </g>
+            </svg>
+          </a>
+          <a href="#favorite">
+            <svg
+              class="icon-header favorite"
+              fill="currentColor"
+              viewBox="0 0 256 256"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="#user">
+            <svg
+              class="icon-header user"
+              fill="currentColor"
+              viewBox="0 0 256 256"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+              ></path>
+            </svg>
+          </a>
+        </nav>
+      </div>
+
+      <div class="header-down container">
+        <nav class="nav-bar">
+          <a href="#">Inicio</a>
+          <a href="#">Libros</a>
+          <a href="#">Autores</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main-home">
+        <div class="main-home_text">
+          <h2 id="main-home_tittle">Library of Ohara</h2>
+          <p id="main-home_slogan">
+            Porque los libros son tesoros que vale la pena proteger.
+          </p>
+        </div>
+      </section>
+
+      <section class="main__productos-home container">
+        <h2>📚 Algunos de nuestros libros</h2>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Library of Ohara</p>
+      <div class="nav-social-media">
+        <ul>
+          <li>
+            <a href="#instagram">
+              <svg
+                class="icon instagram"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                width="256"
+                height="256"
+                viewBox="0 0 256 256"
+                xml:space="preserve"
+              >
+                <g
+                  style="
+                    stroke: none;
+                    stroke-width: 0;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: none;
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+                >
+                  <path
+                    d="M 62.263 90 H 27.738 C 12.443 90 0 77.557 0 62.263 V 27.738 C 0 12.443 12.443 0 27.738 0 h 34.525 C 77.557 0 90 12.443 90 27.738 v 34.525 C 90 77.557 77.557 90 62.263 90 z M 27.738 7 C 16.303 7 7 16.303 7 27.738 v 34.525 C 7 73.697 16.303 83 27.738 83 h 34.525 C 73.697 83 83 73.697 83 62.263 V 27.738 C 83 16.303 73.697 7 62.263 7 H 27.738 z"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: rgb(0, 0, 0);
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform=" matrix(1 0 0 1 0 0) "
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M 45.255 70.47 c -13.904 0 -25.215 -11.312 -25.215 -25.215 S 31.352 20.04 45.255 20.04 s 25.215 11.312 25.215 25.215 S 59.159 70.47 45.255 70.47 z M 45.255 27.04 c -10.044 0 -18.215 8.171 -18.215 18.215 c 0 10.044 8.171 18.215 18.215 18.215 c 10.044 0 18.215 -8.171 18.215 -18.215 C 63.471 35.211 55.3 27.04 45.255 27.04 z"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: rgb(0, 0, 0);
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform=" matrix(1 0 0 1 0 0) "
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="70.557"
+                    cy="19.936999999999998"
+                    r="4.897"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: rgb(0, 0, 0);
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform="  matrix(1 0 0 1 0 0) "
+                  />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#TikTok">
+              <svg
+                class="icon tiktok"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                width="256"
+                height="256"
+                viewBox="0 0 256 256"
+                xml:space="preserve"
+              >
+                <g
+                  style="
+                    stroke: none;
+                    stroke-width: 0;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: none;
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+                >
+                  <path
+                    d="M 84.494 22.535 c -5.144 0 -9.891 -1.704 -13.702 -4.579 c -4.371 -3.296 -7.512 -8.13 -8.621 -13.702 C 61.895 2.877 61.748 1.456 61.733 0 H 47.038 v 40.154 l -0.018 21.994 c 0 5.88 -3.829 10.866 -9.137 12.619 c -1.54 0.509 -3.204 0.75 -4.937 0.655 c -2.211 -0.121 -4.283 -0.789 -6.084 -1.866 c -3.833 -2.292 -6.431 -6.451 -6.502 -11.208 c -0.111 -7.435 5.9 -13.496 13.329 -13.496 c 1.467 0 2.875 0.239 4.194 0.674 V 38.552 v -3.945 c -1.391 -0.206 -2.806 -0.313 -4.238 -0.313 c -8.132 0 -15.737 3.38 -21.174 9.47 c -4.109 4.602 -6.574 10.473 -6.954 16.63 c -0.498 8.088 2.461 15.776 8.201 21.449 c 0.843 0.833 1.729 1.606 2.655 2.319 C 21.294 87.947 27.31 90 33.646 90 c 1.431 0 2.847 -0.106 4.238 -0.312 c 5.919 -0.877 11.38 -3.586 15.69 -7.847 c 5.296 -5.234 8.222 -12.183 8.253 -19.579 l -0.076 -32.844 c 2.526 1.949 5.289 3.562 8.253 4.813 c 4.611 1.945 9.5 2.931 14.531 2.93 V 26.491 v -3.959 C 84.539 22.535 84.497 22.535 84.494 22.535 L 84.494 22.535 z"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: rgb(0, 0, 0);
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform=" matrix(1 0 0 1 0 0) "
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#X">
+              <svg
+                class="icon x"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+                width="256"
+                height="256"
+                viewBox="0 0 256 256"
+                xml:space="preserve"
+              >
+                <g
+                  style="
+                    stroke: none;
+                    stroke-width: 0;
+                    stroke-dasharray: none;
+                    stroke-linecap: butt;
+                    stroke-linejoin: miter;
+                    stroke-miterlimit: 10;
+                    fill: none;
+                    fill-rule: nonzero;
+                    opacity: 1;
+                  "
+                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"
+                >
+                  <path
+                    d="M 0.219 2.882 l 34.748 46.461 L 0 87.118 h 7.87 l 30.614 -33.073 l 24.735 33.073 H 90 L 53.297 38.043 L 85.844 2.882 h -7.87 L 49.781 33.341 L 27.001 2.882 H 0.219 z M 11.793 8.679 h 12.303 L 78.425 81.32 H 66.122 L 11.793 8.679 z"
+                    style="
+                      stroke: none;
+                      stroke-width: 1;
+                      stroke-dasharray: none;
+                      stroke-linecap: butt;
+                      stroke-linejoin: miter;
+                      stroke-miterlimit: 10;
+                      fill: rgb(0, 0, 0);
+                      fill-rule: nonzero;
+                      opacity: 1;
+                    "
+                    transform=" matrix(1 0 0 1 0 0) "
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

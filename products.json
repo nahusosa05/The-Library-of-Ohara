@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "titulo": "Almendra",
+    "autor": "Won-pyung Sohn",
+    "precio": 29600,
+    "imagen": "./assets/img/books/libro-almendra.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Ana Frank",
+    "autor": "David R. Gillham",
+    "precio": 31600,
+    "imagen": "./assets/img/books/libro-ana-frank.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Una Isla Artificial",
+    "autor": "Fernando Krapp",
+    "precio": 29590,
+    "imagen": "./assets/img/books/libro-isla-artificial.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Habitos Atómicos",
+    "autor": "James Clear",
+    "precio": 30900,
+    "imagen": "./assets/img/books/libro-habitos-atomicos.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Una Isla Artificial",
+    "autor": "Fernando Krapp",
+    "precio": 29590,
+    "imagen": "./assets/img/books/libro-isla-artificial.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Te Receto Un Gato",
+    "autor": "Syou Ishida",
+    "precio": 33900,
+    "imagen": "./assets/img/books/libro-receto-gato.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Palabras Cruzadas",
+    "autor": "Gabriel Rolón",
+    "precio": 39900,
+    "imagen": "./assets/img/books/libro-palabras-cruzadas.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "La tienda de los objetos misteriosos",
+    "autor": "Oyama Junko",
+    "precio": 33900,
+    "imagen": "./assets/img/books/libro-tienda-mist.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Los Nuevos",
+    "autor": "Pedro Mairal",
+    "precio": 25500,
+    "imagen": "./assets/img/books/libro-los-nuevos.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "precio": 21600,
+    "imagen": "./assets/img/books/libro-principito.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "El Último Secreto",
+    "autor": "Dan Brown",
+    "precio": 33670,
+    "imagen": "./assets/img/books/libro-ultimo-secreto.jpg"
+  }
+]

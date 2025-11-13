@@ -1,79 +1,90 @@
 [
   {
     "id": 1,
-    "titulo": "Almendra",
-    "autor": "Won-pyung Sohn",
-    "precio": 29600,
-    "imagen": "./assets/img/books/libro-almendra.jpg"
+    "title": "Almendra",
+    "author": "Won-pyung Sohn",
+    "price": 29600,
+    "image": "./assets/img/books/libro-almendra.jpg",
+    "genres": ["Ficción", "Drama"]
   },
   {
     "id": 2,
-    "titulo": "Ana Frank",
-    "autor": "David R. Gillham",
-    "precio": 31600,
-    "imagen": "./assets/img/books/libro-ana-frank.jpg"
+    "title": "Ana Frank",
+    "author": "David R. Gillham",
+    "price": 31600,
+    "image": "./assets/img/books/libro-ana-frank.jpg",
+    "genres": ["Ficción Histórica"]
   },
   {
     "id": 3,
-    "titulo": "Una Isla Artificial",
-    "autor": "Fernando Krapp",
-    "precio": 29590,
-    "imagen": "./assets/img/books/libro-isla-artificial.jpg"
+    "title": "Una Isla Artificial",
+    "author": "Fernando Krapp",
+    "price": 29590,
+    "image": "./assets/img/books/libro-isla-artificial.jpg",
+    "genres": ["Ficción", "Literatura"]
   },
   {
     "id": 4,
-    "titulo": "Habitos Atómicos",
-    "autor": "James Clear",
-    "precio": 30900,
-    "imagen": "./assets/img/books/libro-habitos-atomicos.jpg"
+    "title": "Habitos Atómicos",
+    "author": "James Clear",
+    "price": 30900,
+    "image": "./assets/img/books/libro-habitos-atomicos.jpg",
+    "genres": ["No Ficción", "Autoayuda"]
   },
   {
     "id": 5,
-    "titulo": "Una Isla Artificial",
-    "autor": "Fernando Krapp",
-    "precio": 29590,
-    "imagen": "./assets/img/books/libro-isla-artificial.jpg"
+    "title": "Una Isla Artificial",
+    "author": "Fernando Krapp",
+    "price": 29590,
+    "image": "./assets/img/books/libro-isla-artificial.jpg",
+    "genres": ["Ficción", "Literatura"]
   },
   {
     "id": 6,
-    "titulo": "Te Receto Un Gato",
-    "autor": "Syou Ishida",
-    "precio": 33900,
-    "imagen": "./assets/img/books/libro-receto-gato.jpg"
+    "title": "Te Receto Un Gato",
+    "author": "Syou Ishida",
+    "price": 33900,
+    "image": "./assets/img/books/libro-receto-gato.jpg",
+    "genres": ["Ficción"]
   },
   {
     "id": 7,
-    "titulo": "Palabras Cruzadas",
-    "autor": "Gabriel Rolón",
-    "precio": 39900,
-    "imagen": "./assets/img/books/libro-palabras-cruzadas.jpg"
+    "title": "Palabras Cruzadas",
+    "author": "Gabriel Rolón",
+    "price": 39900,
+    "image": "./assets/img/books/libro-palabras-cruzadas.jpg",
+    "genres": ["Psicología", "No Ficción"]
   },
   {
     "id": 8,
-    "titulo": "La tienda de los objetos misteriosos",
-    "autor": "Oyama Junko",
-    "precio": 33900,
-    "imagen": "./assets/img/books/libro-tienda-mist.jpg"
+    "title": "La tienda de los objetos misteriosos",
+    "author": "Oyama Junko",
+    "price": 33900,
+    "image": "./assets/img/books/libro-tienda-mist.jpg",
+    "genres": ["Fantasía", "Misterio"]
   },
   {
     "id": 9,
-    "titulo": "Los Nuevos",
-    "autor": "Pedro Mairal",
-    "precio": 25500,
-    "imagen": "./assets/img/books/libro-los-nuevos.jpg"
+    "title": "Los Nuevos",
+    "author": "Pedro Mairal",
+    "price": 25500,
+    "image": "./assets/img/books/libro-los-nuevos.jpg",
+    "genres": ["Literatura", "Ficción"]
   },
   {
     "id": 10,
-    "titulo": "El Principito",
-    "autor": "Antoine de Saint-Exupéry",
-    "precio": 21600,
-    "imagen": "./assets/img/books/libro-principito.jpg"
+    "title": "El Principito",
+    "author": "Antoine de Saint-Exupéry",
+    "price": 21600,
+    "image": "./assets/img/books/libro-principito.jpg",
+    "genres": ["Clásico", "Ficción", "Filosofía"]
   },
   {
     "id": 11,
-    "titulo": "El Último Secreto",
-    "autor": "Dan Brown",
-    "precio": 33670,
-    "imagen": "./assets/img/books/libro-ultimo-secreto.jpg"
+    "title": "El Último Secreto",
+    "author": "Dan Brown",
+    "price": 33670,
+    "image": "./assets/img/books/libro-ultimo-secreto.jpg",
+    "genres": ["Thriller", "Misterio"]
   }
 ]

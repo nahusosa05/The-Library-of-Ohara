@@ -11,13 +11,13 @@
 
 ## Demo en Vivo
 
-Podes ver el proyecto desplegado y en funcionamiento aquí:
+Podes ver el proyecto desplegado y en funcionamiento en el siguiente link:
 
 **[https://nahusosa05.github.io/The-Library-of-Ohara/](https://nahusosa05.github.io/The-Library-of-Ohara/)**
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
 * **Catálogo Dinámico:** Los productos (libros) se cargan de forma asíncrona desde un archivo `products.json`, haciendo peticiones http.
 * **Carrito de Compras:** Funcionalidad completa para agregar, eliminar y ver productos en el carrito.
@@ -25,7 +25,7 @@ Podes ver el proyecto desplegado y en funcionamiento aquí:
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 Este proyecto fue construido utilizando las siguientes tecnologías:
 
@@ -35,7 +35,7 @@ Este proyecto fue construido utilizando las siguientes tecnologías:
 
 ---
 
-## 👤 Autor
+## Autor
 
 * **Nahuel Sosa**
     * GitHub: [@nahusosa05](https://github.com/nahusosa05)

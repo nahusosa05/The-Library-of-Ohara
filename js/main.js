@@ -22,11 +22,12 @@ function displayProducts(products, container) {
         <article class="product-card">
             <div class="product-card__image-container">
                 <img src="${product.image}" alt="Portada del libro ${product.title}">
-            </div
+            </div>
+            <div class="product-card__text-container">
             <h3 class="product-card__title">${product.title}</h3>
             <p class="product-card__author">${product.author}</p>
             <p class="product-card__genres">${genresList}</p>
-            <p class="product-card__price">${product.price}</p>
+            <p class="product-card__price">$${product.price}</p>
             <button class="product-card__add-button" data-id="${product.id}">Añadir al carrito</button>
             </div>
         </article>

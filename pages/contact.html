@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Library of Ohara</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Contact - Library of Ohara</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
 
   <body>
     <header>
       <div class="header-up">
-        <a href="./index.html"><h1>Library of Ohara</h1></a>
+        <a href="../index.html"><h1>Library of Ohara</h1></a>
 
         <nav class="nav-search">
           <form class="search-form">
@@ -155,27 +155,51 @@
 
       <div class="header-down container">
         <nav class="nav-bar">
-          <a href="./index.html">Inicio</a>
+          <a href="../index.html">Inicio</a>
           <a href="#">Libros</a>
           <a href="#">Autores</a>
-          <a href="./pages/contact.html">Contacto</a>
+          <a href="./contact.html">Contacto</a>
         </nav>
       </div>
     </header>
 
     <main>
-      <section class="main-home">
-        <div class="main-home_text">
-          <h2 id="main-home_tittle">Library of Ohara</h2>
-          <p id="main-home_slogan">
-            Porque los libros son tesoros que vale la pena proteger.
-          </p>
-        </div>
-      </section>
-
-      <section class="main__products-home container">
-        <h2>📚 Algunos de nuestros libros</h2>
-        <div id="products-container"></div>
+      <section class="main-form-home">
+        <h2 id="main-form-title">Contacto</h2>
+        <form action="https://formspree.io/f/manpnaav" method="POST">
+          <div class="form__class">
+            <label for="name"
+              >Nombre:
+              <input
+                type="text"
+                name="name"
+                placeholder="Ingrese su nombre..."
+                required
+              />
+            </label>
+          </div>
+          <div class="form__class">
+            <label for="email"
+              >Nombre:
+              <input
+                type="email"
+                name="email"
+                placeholder="tucorreo@dominio.com"
+                required
+              />
+            </label>
+          </div>
+          <div class="form__class">
+            <label for="message"
+              >Consulta:
+              <textarea
+                name="message"
+                placeholder="Escriba aquí su consulta..."
+              ></textarea>
+            </label>
+          </div>
+          <button id="contact-form__submit" type="submit">Enviar</button>
+        </form>
       </section>
     </main>
 
@@ -357,6 +381,5 @@
         </ul>
       </div>
     </footer>
-    <script type="module" src="./js/main.js" defer></script>
   </body>
 </html>

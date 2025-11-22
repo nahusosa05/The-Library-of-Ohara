@@ -447,3 +447,105 @@ footer p {
   background-color: #ffebee;
   border-color: #d32f2f;
 }
+
+/* Media queries */
+@media (max-width: 768px) {
+  .header-up {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-search {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .search-form {
+    width: 100%;
+  }
+
+  /* 2. FIX CRÍTICO DEL INPUT */
+  /* Tenías min-width: 50rem, eso rompe el celular. Lo reseteamos. */
+  .search-form input {
+    min-width: auto; /* Quitamos el ancho fijo gigante */
+    width: 100%; /* Que ocupe el 100% del espacio del celular */
+  }
+
+  /* 3. NAVEGACIÓN INFERIOR (Links) */
+  .header-down {
+    flex-direction: column; /* Links arriba, íconos abajo (o viceversa según orden HTML) */
+    gap: 15px;
+    padding-top: 10px;
+  }
+
+  .nav-bar {
+    flex-wrap: wrap; /* Si los links no entran, que bajen al renglón siguiente */
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px; /* Texto un poco más chico */
+  }
+
+  /* 4. HERO SECTION (Imagen Principal) */
+  .main-home {
+    min-height: 250px; /* Achicamos la altura del banner */
+  }
+
+  #main-home_tittle {
+    font-size: 2rem; /* Título más chico (estaba en 3rem) */
+  }
+
+  #main-home_slogan {
+    font-size: 1rem; /* Slogan más chico */
+    padding: 0 10px; /* Un poco de margen a los costados */
+  }
+
+  /* 5. CARRITO DE COMPRAS (Shopping.html) */
+  /* Para que los ítems no se vean apretados */
+  .cart-item {
+    flex-direction: column; /* Imagen arriba, texto abajo */
+    text-align: center;
+    gap: 10px;
+  }
+
+  .cart-item__info,
+  .cart-item__qty,
+  .cart-item__actions {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centrar todo */
+    flex-direction: column;
+  }
+
+  .btn-delete {
+    width: 100%; /* Botón eliminar ancho completo en móvil es más fácil de tocar */
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .search-form input {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .header-up {
+    gap: 1rem;
+  }
+
+  .header-up h1 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+
+  .main-home {
+    min-height: 30rem;
+  }
+
+  #main-home_tittle {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    width: 95%;
+  }
+}
